@@ -1,0 +1,86 @@
+
+.iwaiter_navbar {
+    margin-top: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 15vh;
+    background: transparent;
+}
+
+.menu_icon_div {
+    background: #fff;
+    padding: 10px;
+    border-radius: 250px;
+    max-height: 3.5rem;
+    text-align: center;
+}
+
+.box_navbar {
+   
+    width: 35px;
+    height: 3px;
+    background: #162d4a;
+    display: block;
+    margin: 8px 0;
+}
+.logo_div {
+    max-height: 5.2rem;
+    background: #fff;
+    padding: 5px;
+    border-radius: 250px;
+
+}
+.logo_div img{
+    max-height: 4.5rem;
+   
+    border-radius: 250px;
+    background: transparent;
+}
+.search_div {
+    background: #fff;
+    padding: 5px;
+    border-radius: 250px;
+    max-height: 3.5rem;
+}
+.search_div img{
+    max-height: 2.5rem;
+    background: transparent;
+    opacity: 0.6;
+}
+
+@media (max-width: 400px) {
+    .logo_div {
+        max-height: 3.8rem;
+        padding: 5px;
+
+    
+    }
+    .logo_div img{
+        max-height: 3.2rem;
+    }
+    .search_div {
+
+        padding: 5px;
+
+        max-height: 2.5rem;
+    }
+    .search_div img{
+        max-height: 1.9rem;
+
+    }
+    .menu_icon_div {
+
+        padding: 10px;
+
+        max-height: 3.5rem;
+   
+    }
+    
+    .box_navbar {
+       
+        width: 35px;
+        height: 3px;
+        margin: 8px 0;
+    }
+}
