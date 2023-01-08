@@ -24,7 +24,7 @@ const App = () => {
 
     <AppProvider>
 
-    <div className="iwaiter_container" >
+    <div className="iwaiter_container  " >
    <BrowserRouter>
 
    <Navbar />
