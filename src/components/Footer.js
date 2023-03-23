@@ -3,11 +3,19 @@ import './Footer.css';
 
 
 const Footer = () => {
+
+  const openInNewTab = url => {
+    window.open(url, '_blank', 'noopener,noreferrer');
+  };
+
+
   return (
     <div className='section fotter_section' >
         <footer>
             <div className="footer_area">
-            <h1 className="footer_subheadline">بني ❤️ بواسطة عمار حمدي && ريان مكي</h1>
+            <h1 className="footer_subheadline">بني ❤️ بواسطة  
+              <span onClick={() => openInNewTab('https://notregsyrdev.web.app/') } > عمار حمدي حموش  - codingammarhamdi@gmail.com </span>
+               </h1>
             </div>
 
         </footer>
