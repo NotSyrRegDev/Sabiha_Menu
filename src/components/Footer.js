@@ -14,7 +14,7 @@ const Footer = () => {
         <footer>
             <div className="footer_area">
             <h1 className="footer_subheadline">بني ❤️ بواسطة  
-              <span onClick={() => openInNewTab('https://notregsyrdev.web.app/') } > عمار حمدي حموش  - codingammarhamdi@gmail.com </span>
+              <span onClick={() => openInNewTab('https://notregsyrdev.web.app/') } > عمار حمدي حموش  - <br> </br>codingammarhamdi@gmail.com </span>
                </h1>
             </div>
 
